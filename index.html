@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nitin Phadtare | Wordpress & Frontend Developer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <div class="bg-animation">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
   <!-- Navbar -->
   <header>
@@ -23,16 +31,24 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <h2>Wordpress & Frontend Developer</h2>
+    <h2 id="typing"></h2>
     <p>
       WordPress Developer transitioning into Frontend Development.
       Focused on clean UI, performance, and real-world projects.
     </p>
     <a href="#projects" class="btn">View Projects</a>
+
+    <div class="floating-icons">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+        style="width:50px; filter: invert(1);">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/elementor.svg"
+        style="width:50px; filter: invert(1);">
+    </div>
   </section>
 
   <!-- About -->
-  <section id="about" class="section" >
+  <section id="about" class="section">
     <h2>About Me</h2>
     <p>
       I have 1.5+ years of experience working with WordPress, Elementor Pro,
@@ -43,7 +59,7 @@
   </section>
 
   <!-- Skills -->
-  <section id="skills" class="section">
+  <section id="skills" class="section fade-in">
     <h2>Skills</h2>
     <div class="skills-grid">
       <span>HTML</span>
@@ -58,8 +74,43 @@
     </div>
   </section>
 
+  <!-- Tech Stack -->
+  <section class="section fade-in">
+    <h2>Tech Stack</h2>
+    <div class="tech-icons">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+        style="width:50px; filter: invert(1);">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/elementor.svg"
+        style="width:50px; filter: invert(1);">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+    </div>
+  </section>
+
+  <!-- WordPress Projects -->
+  <section class="section fade-in">
+    <h2>WordPress Projects</h2>
+
+    <div class="wp-links">
+      <a href="https://realenviroservices.com/" target="_blank">Business Website</a>
+      <a href="https://www.cipla.com/" target="_blank">Pharma Website</a>
+      <a href="https://accrevise.com/" target="_blank">Finance Website</a>
+      <a href="https://faymeengineering.com/" target="_blank">Corporate Website</a>
+      <a href="https://bannerbrookpharmacy.co.uk/" target="_blank">Booking Website</a>
+      <a href="https://lawveritaswest.in/" target="_blank">Law Website</a>
+      <a href="https://www.rebizcoadvisory.com/" target="_blank">Dynamic Website</a>
+      <a href="https://marconsignage.com/" target="_blank">Signage Website</a>
+    </div>
+
+  </section>
+
   <!-- Projects -->
-  <section id="projects" class="section" >
+  <section id="projects" class="section fade-in">
     <h2>Projects</h2>
 
     <div class="project-card">
@@ -84,15 +135,19 @@
     <div class="project-card">
       <h3>Ecommerce Landing Page</h3>
       <p>In progress</p>
+    </div>
 
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section" >
+  <section id="contact" class="section fade-in contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:nitin1122ph@gmail.com" target="_blank">nitin1122ph@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/nitin1122ph-cell?tab=repositories" target="_blank">https://github.com/nitin1122ph-cell</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nitin-phadtare-8554a2245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">https://www.linkedin.com/in/nitin-phadtare</a></p>
+    <p>GitHub: <a href="https://github.com/nitin1122ph-cell?tab=repositories"
+        target="_blank">https://github.com/nitin1122ph-cell</a></p>
+    <p>LinkedIn: <a
+        href="https://www.linkedin.com/in/nitin-phadtare-8554a2245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank">https://www.linkedin.com/in/nitin-phadtare</a></p>
   </section>
 
   <footer>
@@ -101,4 +156,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
